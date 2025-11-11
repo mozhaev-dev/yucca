@@ -6,6 +6,7 @@
   "type": "module",
   "main": "./dist/index.js",
   "scripts": {
+    "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
     "clean": "rm -rf dist",
@@ -14,6 +15,8 @@
     "test": "echo 'Tests not configured yet'"
   },
   "author": "Sergei Mozhaev <mozhaev.dev@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "4.20.6"
+  }
 }
-

@@ -44,6 +44,9 @@ pnpm client:build
 # Preview client (serve built client with Vite server)
 pnpm client:preview
 
+# Run server dev mode 
+pnpm server:dev
+
 # Build signaling server
 pnpm server:build
 
