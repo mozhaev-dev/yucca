@@ -1,0 +1,19 @@
+{
+  "name": "@yucca/server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WebSocket signaling server for Yucca",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'Lint not configured yet'",
+    "test": "echo 'Tests not configured yet'"
+  },
+  "author": "Sergei Mozhaev <mozhaev.dev@gmail.com>",
+  "license": "MIT"
+}
+

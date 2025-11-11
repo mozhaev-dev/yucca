@@ -1,0 +1,26 @@
+{
+  "name": "yucca",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimalist P2P video conferencing platform",
+  "type": "module",
+  "scripts": {
+    "client:dev": "pnpm --filter @yucca/client dev",
+    "client:build": "pnpm --filter @yucca/client build",
+    "client:preview": "pnpm --filter @yucca/client preview",
+    "server:build": "pnpm --filter @yucca/server build",
+    "server:start": "pnpm --filter @yucca/server start",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "clean": "pnpm -r clean && rm -rf node_modules"
+  },
+  "engines": {
+    "node": "20.11.0",
+    "pnpm": "9.0.0"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "author": "Sergei Mozhaev <mozhaev.dev@gmail.com>",
+  "license": "MIT"
+}
+
