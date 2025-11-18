@@ -1,3 +1,3 @@
-import { start } from "./app.js";
+import { start } from "./app.js"
 
-start();
+start()

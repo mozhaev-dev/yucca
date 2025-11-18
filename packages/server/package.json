@@ -7,11 +7,11 @@
   "main": "./dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "build": "tsc",
+    "build": "pnpm clean && tsc",
     "start": "node dist/index.js",
     "clean": "rm -rf dist",
     "typecheck": "tsc --noEmit",
-    "lint": "echo 'Lint not configured yet'",
+    "lint": "eslint . --max-warnings=0",
     "test": "echo 'Tests not configured yet'"
   },
   "devDependencies": {

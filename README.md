@@ -4,10 +4,10 @@ Minimalist P2P video conferencing platform focused on privacy and simplicity.
 
 ## Project Goals
 
-- Learn WebRTC technology in depth
-- Create a simple, privacy-focused video conferencing application
-- Explore P2P conference capabilities and limitations
-- Build a minimalist, anonymous communication tool
+-   Learn WebRTC technology in depth
+-   Create a simple, privacy-focused video conferencing application
+-   Explore P2P conference capabilities and limitations
+-   Build a minimalist, anonymous communication tool
 
 ## Project Structure
 
@@ -26,8 +26,8 @@ yucca/
 
 ### Prerequisites
 
-- **Node.js**: 20.11.0 (LTS)
-- **pnpm**: 9.0.0
+-   **Node.js**: 20.11.0 (LTS)
+-   **pnpm**: 9.0.0
 
 ### Quick Start
 
@@ -44,7 +44,7 @@ pnpm client:build
 # Preview client (serve built client with Vite server)
 pnpm client:preview
 
-# Run server dev mode 
+# Run server dev mode
 pnpm server:dev
 
 # Build signaling server
@@ -56,16 +56,19 @@ pnpm server:start
 # Run tests
 pnpm test
 
+# Lint code
+pnpm lint
+
 # Type checking
 pnpm typecheck
 ```
 
 ## Core Principles
 
-- **Privacy First**: All video streams go directly between peers (P2P)
-- **Simplicity**: Minimal backend, no registration, no data storage
-- **Anonymity**: No user data collection or processing
-- **Transparency**: Users can be confident that streams are truly peer-to-peer
+-   **Privacy First**: All video streams go directly between peers (P2P)
+-   **Simplicity**: Minimal backend, no registration, no data storage
+-   **Anonymity**: No user data collection or processing
+-   **Transparency**: Users can be confident that streams are truly peer-to-peer
 
 ## Research Goals
 
@@ -79,4 +82,3 @@ After MVP completion, focus on exploring P2P conference capabilities:
 ## License
 
 MIT
-

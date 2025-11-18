@@ -3,5 +3,5 @@
  * P2P video conferencing client
  */
 
-console.log('🌵 Yucca Client - Coming soon...');
+console.log('🌵 Yucca Client - Coming soon...')
 
