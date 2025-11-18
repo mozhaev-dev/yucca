@@ -19,6 +19,7 @@
     "@types/ws": "8.18.1"
   },
   "dependencies": {
+    "@yucca/shared": "workspace:*",
     "ws": "8.18.3"
   },
   "author": "Sergei Mozhaev <mozhaev.dev@gmail.com>",

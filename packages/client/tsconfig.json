@@ -6,11 +6,12 @@
     "jsxImportSource": "vue",
     "types": ["vite/client"],
     "isolatedModules": true,
-    "useDefineForClassFields": true,
+    "moduleResolution": "bundler",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "tsBuildInfoFile": "./dist/.tsbuildinfo",
   },
   "include": ["src/**/*", "src/**/*.vue"],
   "exclude": ["node_modules", "dist"],

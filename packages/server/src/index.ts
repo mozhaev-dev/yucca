@@ -1,2 +1,3 @@
-console.log('🌵 Yucca Server - Coming soon...');
+import { start } from "./app.js";
 
+start();
