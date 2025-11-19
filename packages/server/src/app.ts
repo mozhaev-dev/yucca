@@ -1,5 +1,3 @@
-import { test } from "@yucca/shared"
-
-export function start() {
-  console.log(test())
+export function start(): void {
+  console.log("Starting application...")
 }

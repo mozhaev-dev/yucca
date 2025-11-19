@@ -19,7 +19,9 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --max-warnings=0"
   },
+  "dependencies": {
+    "nanoid": "5.1.6"
+  },
   "author": "Sergei Mozhaev <mozhaev.dev@gmail.com>",
   "license": "MIT"
 }
-
