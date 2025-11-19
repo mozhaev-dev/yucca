@@ -41,7 +41,6 @@ export type PeerLeftMessage = BaseServerMessage<'PEER_LEFT', {
 }>
 
 export type OfferReceivedMessage = BaseServerMessage<'OFFER_RECEIVED', {
-  type: 'OFFER_RECEIVED'
   fromPeerId: PeerId
   offer: SessionDescription
 }>
@@ -52,14 +51,11 @@ export type AnswerReceivedMessage = BaseServerMessage<'ANSWER_RECEIVED', {
 }>
 
 export type IceCandidateReceivedMessage = BaseServerMessage<'ICE_CANDIDATE_RECEIVED', {
-  type: 'ICE_CANDIDATE_RECEIVED'
   fromPeerId: PeerId
   candidate: IceCandidate
 }>
 
-export type ErrorMessage = BaseServerMessage<'ERROR', {
-  error: ErrorPayload
-}>
+export type ErrorMessage = BaseServerMessage<'ERROR', ErrorPayload>
 
 /**
  * Discriminated union for all Server→Client messages
