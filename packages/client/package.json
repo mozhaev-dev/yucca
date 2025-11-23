@@ -11,9 +11,11 @@
     "clean": "rm -rf dist",
     "typecheck": "vue-tsc --noEmit",
     "lint": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix",
     "test": "vitest"
   },
   "dependencies": {
+    "@yucca/shared": "workspace:*",
     "naive-ui": "2.43.1",
     "vue": "3.5.24"
   },

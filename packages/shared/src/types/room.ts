@@ -2,6 +2,7 @@ import type { PeerId, RoomId, Timestamp } from './primitives.js'
 
 export interface Peer {
   id: PeerId
+  username: string
   joinedAt: Timestamp
 }
 
